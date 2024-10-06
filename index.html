@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EduLearn</title>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<link
+rel="stylesheet"
+href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav >
+        <div class="container nav__container">
+            <a href="index.html"><h3>EDULEARN</h3></a>
+            <ul class="nav__menu">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT</a></li> 
+            <li><a href="login.html">LOGIN</a></li> 
+            </ul>
+            <!-- MENU AND CLOSE BUTTON -->
+            <button id="open-menu-btn"><ion-icon name="menu"></ion-icon></button>  
+            <button id="close-menu-btn"><ion-icon name="close-circle"></ion-icon></button>
+        </div>
+    </nav>
+    <!-- for making header section of website-->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+            <h1>Grow your skills To Advance Your Career Path</h1>
+            <p>
+                Welcome to EduLearn, your gateway to a world of knowledge and discovery.
+                 Explore our diverse range of courses, connect with passionate educators, 
+                 and embark on a journey of lifelong learning.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Get Started</a>
+            </div>
+            <div class="header__right">
+           <div class="header__right-image">
+            <img src="./images/about.jpg">
+           </div>
+            </div>
+
+        </div> 
+    </header>
+    <!-- end of header section-->
+
+    <section class="categories">
+        <div class="container categories__container">
+            <div class="categories__left">
+           <h1>Categories</h1>
+           <p>Explore our diverse categories, ranging from Web Development to Graphic Design,
+             designed to meet your unique interests and learning goals.
+              From coding to creative writing,
+               there's something for everyone at Edulearn.</p>
+           <a href="#" class="btn">Learn More</a>
+            </div>
+            <div class="categories__right">
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="logo-bitcoin"></ion-icon></span>
+                <h5>Blockchain</h5>
+                <p>Unlock the potential of blockchain with our course.
+                     From fundamentals to real-world applications.  </p>
+              </article>
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="sparkles"></ion-icon></span>
+                <h5>Graphic Design</h5>
+                <p>  Master graphic design essentials with our dynamic course. 
+                    Unleash your creativity and bring ideas to life at Edulearn.</p>
+              </article>
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="reader"></ion-icon></span>
+                <h5>Web Development</h5>
+                <p>Dive into web development: learn coding, design,
+                     and launch your own sites.
+                     Expert-led, hands-on training at Edulearn.  </p>
+              </article>
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="laptop"></ion-icon></span>
+                <h5>Application Development</h5>
+                <p> Unlock the secrets of app development with our expert-led course.
+                     Start building your future in tech today at Edulearn.</p>
+              </article>
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="card"></ion-icon></span>
+                <h5>Marketing</h5>
+                <p>Discover marketing excellence with our concise course.
+                     From strategy to execution, succeed in the digital age at Edulearn. </p>
+              </article>
+
+              <article class="category">
+                <span class="category__icon"><ion-icon name="business"></ion-icon></span>
+                <h5>business</h5>
+                <p>Transform your career with our intensive business course.
+                     Gain essential skills for the modern workplace at Edulearn. </p>
+              </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="courses">
+        <h2>Our Popular Courses</h2>
+        <div class="container courses__container">
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course1.png" >
+            </div>
+            <div class="course__info">
+                <h4>Responsive Social Media Website Development</h4>
+                <p>
+                   Join our course on Responsive Social Media Website Development and 
+                   learn to create dynamic platforms optimized for any screen size.
+                </p>
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+            </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course2.png" >
+            </div>
+             <div class="course__info">
+                <h4>Graphic Designing UI Course</h4>
+                <p>
+                    Unleash your creativity with our graphic design course. Learn the tools, techniques,
+                    and principles to create captivating visuals that stand out. 
+
+
+
+                </p>
+
+             <a href="courses.html" class="btn btn-primary">Learn More</a>
+             </div>
+        </article>
+
+        <article class="course">
+            <div class="course__image">
+                <img src="./images/course3.png" >
+                </div>
+              <div class="course__info">
+                <h4>Responsive Admin Panel UI Design</h4>
+                <p>
+                   Embark on mastering responsive admin panel UI design. Learn to craft intuitive,
+                    sleek interfaces that adapt flawlessly across devices.
+                </p>
+                
+                <a href="courses.html" class="btn btn-primary">Learn More</a>
+            </div>
+           
+              
+        </article>
+
+        </div>
+    </section>
+
+
+    <section class="faqs">
+        <h2>Frequently Asked Questions</h2>
+        <div class="container questions__container">
+            <article class="faq">
+              <div class="faq__icon"><ion-icon name="add"></ion-icon> </div>
+             <div class="question__answer">
+                <h4>How do I know the right courses for me?</h4>
+                <p>
+                    To find the right courses, assess your interests, career objectives,
+                     and current skills. Browse our catalog, review course descriptions
+                      and instructor profiles, and consider your preferred learning style.
+                       For personalized guidance, contact our support team.
+                </p>
+             </div>
+            </article>
+
+            <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon></div>
+               <div class="question__answer">
+                  <h4>Do i get a Certificate for every courses i take?</h4>
+                  <p>
+                    Yes, upon successful completion of each course, you will receive a certificate
+                     to validate your learning achievements.
+                     We believe in recognizing your dedication and 
+                     commitment to advancing your education.
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon> </div>
+               <div class="question__answer">
+                  <h4>Do i get a refund if the courses isn't worth my money?</h4>
+                  <p>
+                    Yes, we offer a satisfaction guarantee.
+                     If you find that the course doesn't meet your expectations,
+                      you can request a refund within <b>7 days</b> of purchase.
+                     Your satisfaction is our priority at Edulearn.  
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon></div>
+               <div class="question__answer">
+                  <h4>Will I have lifetime access to courses I purchase?</h4>
+                  <p>
+                    Yes, you will have lifetime access to all courses you purchase on our education website.
+                     Once you enroll, you can learn at your own pace, revisit course materials whenever you like,
+                     and stay up-to-date with the latest content and updates—all for a one-time fee.
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon></div>
+               <div class="question__answer">
+                  <h4>Will you assist to get my first job?</h4>
+                  <p>
+                    Absolutely! We offer comprehensive guidance to help you kickstart your career journey. 
+                    From resume writing tips to interview preparation, we're here to support you every step of the way.
+                     Let's work together to land your first job and set the foundation for a successful career.
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon> </div>
+               <div class="question__answer">
+                  <h4>What are your payment options?</h4>
+                  <p>
+                    Our education website offers a variety of payment options for your convenience.
+                     You can securely pay using major credit cards, PayPal, and bank transfers. 
+                     Additionally, we also support alternative payment methods such as digital wallets 
+                     and payment gateways. Rest assured, we strive to make your learning experience
+                      seamless and hassle-free. 
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon> </div>
+               <div class="question__answer">
+                  <h4>What are the requirements to start?</h4>
+                  <p>
+                    To begin your journey on our education website, all you need is an internet connection 
+                    and a device such as a computer, tablet, or smartphone. Simply sign up for an account, 
+                    explore our courses, and start learning at your own pace. No prior qualifications or 
+                    prerequisites are required. Dive in and discover the endless possibilities of online 
+                    education with us! 
+                  </p>
+               </div>
+              </article>
+
+              <article class="faq">
+                <div class="faq__icon"><ion-icon name="add"></ion-icon> </div>
+               <div class="question__answer">
+                  <h4>Do I get all sources code from projects?</h4>
+                  <p>
+                    Yes, you'll have access to all source codes for projects featured on our education website.
+                     We believe in providing comprehensive learning experiences, empowering you to delve into 
+                     the intricacies of each project and enhance your understanding of programming concepts.
+                  </p>
+               </div>
+              </article>
+
+        </div>
+
+    </section>
+
+
+
+
+    <section class="container testimonials__Container mySwiper">
+         <h2>Student's Testimonials</h2>
+        <div class="swiper-wrapper">
+          
+
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test2.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>David Smith</h5>
+             <small>Web Developer</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>I never thought learning coding could be this enjoyable! 
+                Thanks to <b>Edulearn</b>, I've gained valuable skills that 
+                have opened up new career opportunities. Highly recommend!</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test3.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Emily Davis</h5>
+             <small>Entrepreneur</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>I can't recommend the business course at <b>Edulearn</b> enough! 
+                It provided practical strategies for success in today's competitive
+                 landscape. Thank you for empowering me with valuable skills!</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test4.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5> Michael Johnson</h5>
+             <small>Entrepreneur</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>The business course at [Education Website Name] exceeded my expectations.
+                 The insights I gained helped me advance in my career. Truly grateful for 
+                 this platform!</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test5.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Christopher Lee</h5>
+             <small>Student</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>The blockchain course provided by <b>Edulearn</b> is top-notch. The instructors 
+                are knowledgeable, and the hands-on approach really solidified my understanding of
+                 this complex technology.</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test6.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Daniel Brown</h5>
+             <small>Developer</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>I was skeptical about online learning until I enrolled in the responsive admin panel
+                 UI design course at <b>Edulearn</b>. The course materials were comprehensive, and the
+                  instructor's guidance was invaluable.</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test7.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Olivia Martinez</h5>
+             <small>Student</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>The blockchain course at <b>Edulearn</b>demystified this complex technology for me.
+                 The instructors broke down concepts in a clear and accessible manner, making learning a breeze.</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test8.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Sophia Anderson</h5>
+             <small>UI Designer</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>Enrolling in the responsive admin panel UI design course at <b>Edulearn</b> was one of the
+                 best decisions I've made. The course content was well-structured, and the projects were both
+                  challenging and rewarding.</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test9.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Ava Wilson</h5>
+             <small>Student</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>The humanities courses at <b>Edulearn</b> reignited my passion for learning. The diverse range 
+                of topics offered allowed me to explore different interests and broaden my intellectual horizons.</p>  
+            </div>
+           </article>
+
+           <article class="testimonial swiper-slide">
+            <div class="avatar">
+                <img src="./images/test10.jpg">
+            </div>
+            <div class="testimonial__info">
+             <h5>Jessica Miller</h5>
+             <small>Employee</small>   
+             
+            </div>
+            <div class="testimonial__body">
+              <p>Courses at <b>Edulearn</b> are a game-changer! As a working mom, the flexibility of online learning 
+                was crucial for me. The business course provided invaluable insights that I've already applied to my 
+                professional life. Thank you for making education accessible and impactful!</p>  
+            </div>
+           </article>
+           
+        
+        </div>
+        
+        <div class="swiper-pagination"></div>
+        
+
+    </section>
+  <!--footer 1-->
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>EDULEARN</h4></a>
+          <p>
+            Elevating Minds, Empowering Futures 
+            – Your Partner in Lifelong Learning.
+          </p>
+        </div>
+        <!--footer 2-->
+        <div class="footer__2">
+          <h4>Permalinks</h4>
+          <ul class="permalinks">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+
+<!--footer 3-->
+
+        <div class="footer__3">
+          <h4>Primary</h4>
+          <ul class="privacy">
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms and conditions</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          </ul>
+        </div>
+      <!--footer 4-->  
+
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>9156574645</p>
+            <p>abc260@gmail.com</p>
+          </div>
+        
+
+        <ul class="footer__socials">
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a>
+          </li>
+          <li><a href="#" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a>
+          </li>
+          <li>
+            <a href="#" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+          </li>
+        </ul>
+      </div>
+
+      
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; EDULEARN </small>
+
+     </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+
+    <!-- FOR SLIDER OF TESTIMONIAL-->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
+          },
+          //When window width is >=600px
+          breakpoints : {
+            600: {
+              slidesPerView :2
+            }
+          }
+        });
+      </script>
+</body>
+</html>
